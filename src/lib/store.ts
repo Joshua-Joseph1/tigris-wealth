@@ -1,6 +1,11 @@
 import { create } from 'zustand'
 
 interface UIStore {
+  // Mobile
+  isMobileSidebarOpen: boolean
+  openMobileSidebar: () => void
+  closeMobileSidebar: () => void
+
   // Modals
   isClientModalOpen: boolean
   isDealModalOpen: boolean
@@ -34,6 +39,10 @@ interface UIStore {
 }
 
 export const useUIStore = create<UIStore>((set) => ({
+  isMobileSidebarOpen: false,
+  openMobileSidebar: () => set({ isMobileSidebarOpen: true }),
+  closeMobileSidebar: () => set({ isMobileSidebarOpen: false }),
+
   isClientModalOpen: false,
   isDealModalOpen: false,
   isTaskModalOpen: false,

@@ -1,11 +1,12 @@
 # Investment Ops Dashboard
 
-A UI-only MVP Investment Operations Dashboard with a persistent left sidebar and modern dark theme.
+A fully responsive, UI-only MVP Investment Operations Dashboard with mobile-first design and modern dark theme.
 
 ## Features
 
+- **✨ Fully Mobile Responsive**: Optimized for devices from 320px to desktop
 - **Dark-first UI**: Mostly black surfaces with high contrast
-- **Persistent Sidebar**: Fixed 280px left navigation
+- **Responsive Navigation**: Hamburger menu on mobile, fixed sidebar on desktop
 - **8 Dashboard Pages**:
   - Overview: KPIs, pipeline funnel, recent activity
   - Clients: Searchable table with filters
@@ -19,11 +20,23 @@ A UI-only MVP Investment Operations Dashboard with a persistent left sidebar and
 ## Stack
 
 - Next.js 14 (App Router) + TypeScript
-- Tailwind CSS (dark-first)
+- Tailwind CSS (mobile-first, dark theme)
 - Lucide React icons
 - Recharts for charts
 - Zustand for UI state
 - Mock JSON data (no backend)
+
+## Mobile Optimization
+
+✅ **Fully responsive across all devices:**
+- 📱 iPhone SE (320px) to iPad Pro (1024px+)
+- ✅ 44px minimum touch targets
+- ✅ No horizontal scrolling (except intentional Kanban)
+- ✅ Mobile-optimized data tables with card view
+- ✅ Hamburger navigation menu
+- ✅ Responsive filters and forms
+
+See `MOBILE_AUDIT_REPORT.md` for comprehensive testing results.
 
 ## Quick Start
 
@@ -64,13 +77,19 @@ Throughout the codebase, you'll find `// TODO:` comments marking where real inte
 ### State Management
 
 - Zustand store in `src/lib/store.ts` handles UI-only state:
+  - Mobile sidebar open/close
   - Modal open/close states
   - Filters for clients and tasks
   - Selected entity IDs
 
 ### Styling
 
-Custom colors defined in `tailwind.config.ts`:
+**Mobile-First Responsive Design:**
+- Breakpoints: sm (640px), md (768px), lg (1024px)
+- Touch-friendly 44px minimum targets
+- Responsive spacing and typography
+
+**Custom colors** defined in `tailwind.config.ts`:
 - `background`: #000 (pure black)
 - `surface`: #111, #141414
 - `border`: #262626
@@ -91,10 +110,10 @@ src/
 │   ├── compliance/
 │   └── settings/
 ├── components/
-│   ├── layout/           # Sidebar, Topbar
-│   ├── ui/               # KpiCard, DataTable, Badge
+│   ├── layout/           # Sidebar (responsive), Topbar
+│   ├── ui/               # KpiCard, DataTable (mobile/desktop), Badge, MobileCard
 │   ├── pipeline/         # DealCard
-│   └── charts/           # FunnelChart
+│   └── charts/           # FunnelChart (responsive)
 ├── data/                 # Mock JSON data
 └── lib/
     ├── store.ts          # Zustand UI state
@@ -118,6 +137,37 @@ To connect to a real backend:
 ```bash
 npm run build
 ```
+
+## Testing
+
+**Mobile Testing:**
+```bash
+# Test on various screen sizes
+# - iPhone SE: 320px
+# - iPhone 12: 390px
+# - iPad: 768px
+# - Desktop: 1024px+
+
+npm run dev
+# Then use browser dev tools to test responsive breakpoints
+```
+
+**Desktop Testing:**
+```bash
+npm run dev
+# Open http://localhost:3000
+```
+
+See `MOBILE_AUDIT_REPORT.md` for detailed testing results and cross-browser compatibility.
+
+## Documentation
+
+- `README.md` - This file (quick start guide)
+- `MOBILE_AUDIT_REPORT.md` - Comprehensive mobile optimization report
+  - Issues found and solutions
+  - Testing results
+  - Implementation patterns
+  - Future recommendations
 
 ## License
 

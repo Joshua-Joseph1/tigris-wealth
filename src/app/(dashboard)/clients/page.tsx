@@ -89,22 +89,22 @@ export default function ClientsPage() {
       </div>
 
       {/* Filters */}
-      <div className="flex flex-wrap gap-4">
-        <div className="relative flex-1 max-w-md">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-text-muted" />
+      <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
+        <div className="relative flex-1 min-w-full sm:min-w-0 sm:max-w-md">
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-text-muted pointer-events-none" />
           <input
             type="text"
             placeholder="Search clients..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full pl-10 pr-4 py-2 bg-surface border border-border rounded-xl text-sm focus-visible:ring-2 ring-accent ring-offset-0 outline-none"
+            className="w-full pl-10 pr-4 py-2.5 bg-surface border border-border rounded-xl text-sm focus-visible:ring-2 ring-accent ring-offset-0 outline-none min-h-[44px]"
           />
         </div>
 
         <select
           value={tierFilter}
           onChange={(e) => setTierFilter(e.target.value)}
-          className="px-4 py-2 bg-surface border border-border rounded-xl text-sm focus-visible:ring-2 ring-accent ring-offset-0 outline-none"
+          className="px-4 py-2.5 bg-surface border border-border rounded-xl text-sm focus-visible:ring-2 ring-accent ring-offset-0 outline-none flex-1 sm:flex-none min-h-[44px]"
         >
           <option value="all">All Tiers</option>
           <option value="A">Tier A</option>
@@ -115,7 +115,7 @@ export default function ClientsPage() {
         <select
           value={statusFilter}
           onChange={(e) => setStatusFilter(e.target.value)}
-          className="px-4 py-2 bg-surface border border-border rounded-xl text-sm focus-visible:ring-2 ring-accent ring-offset-0 outline-none"
+          className="px-4 py-2.5 bg-surface border border-border rounded-xl text-sm focus-visible:ring-2 ring-accent ring-offset-0 outline-none flex-1 sm:flex-none min-h-[44px]"
         >
           <option value="all">All Status</option>
           <option value="ACTIVE">Active</option>
@@ -128,6 +128,10 @@ export default function ClientsPage() {
         data={enrichedClients}
         columns={columns}
         onRowClick={handleRowClick}
+        mobileConfig={{
+          primaryField: (client) => client.name,
+          secondaryField: (client) => client.primaryEmail,
+        }}
       />
     </div>
   )

@@ -41,15 +41,15 @@ export default function PipelinePage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-bold">Pipeline</h1>
-        <p className="text-text-muted mt-1">Track deals through your pipeline</p>
+        <h1 className="text-2xl sm:text-3xl font-bold">Pipeline</h1>
+        <p className="text-text-muted mt-1 text-sm sm:text-base">Track deals through your pipeline</p>
       </div>
 
       {/* Kanban Board */}
-      <div className="overflow-x-auto pb-4">
-        <div className="flex gap-4 min-w-max">
+      <div className="overflow-x-auto pb-4 -mx-4 px-4 sm:mx-0 sm:px-0">
+        <div className="flex gap-3 sm:gap-4 min-w-max">
           {dealsByStage.map((stage) => (
-            <div key={stage.id} className="w-72 flex-shrink-0">
+            <div key={stage.id} className="w-64 sm:w-72 flex-shrink-0">
               {/* Stage Header */}
               <div className="mb-4">
                 <h3 className="font-semibold text-sm">{stage.name}</h3>

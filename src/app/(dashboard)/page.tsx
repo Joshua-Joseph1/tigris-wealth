@@ -35,14 +35,14 @@ export default function OverviewPage() {
   })
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-6 sm:space-y-8">
       <div>
-        <h1 className="text-3xl font-bold">Overview</h1>
-        <p className="text-text-muted mt-1">Welcome back to Investment Ops</p>
+        <h1 className="text-2xl sm:text-3xl font-bold">Overview</h1>
+        <p className="text-text-muted mt-1 text-sm sm:text-base">Welcome back to Investment Ops</p>
       </div>
 
       {/* KPI Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
         <KpiCard
           title="Assets Under Management"
           value={formatCurrency(totalAUM)}
@@ -66,16 +66,16 @@ export default function OverviewPage() {
       </div>
 
       {/* Pipeline & Activity */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
         {/* Pipeline Funnel */}
-        <div className="bg-surface border border-border rounded-2xl p-6 shadow-2xl">
-          <h2 className="text-lg font-semibold mb-4">Pipeline by Stage</h2>
+        <div className="bg-surface border border-border rounded-2xl p-4 sm:p-6 shadow-2xl">
+          <h2 className="text-base sm:text-lg font-semibold mb-4">Pipeline by Stage</h2>
           <FunnelChart data={pipelineData} />
         </div>
 
         {/* Recent Activity */}
-        <div className="bg-surface border border-border rounded-2xl p-6 shadow-2xl">
-          <h2 className="text-lg font-semibold mb-4">Recent Activity</h2>
+        <div className="bg-surface border border-border rounded-2xl p-4 sm:p-6 shadow-2xl">
+          <h2 className="text-base sm:text-lg font-semibold mb-4">Recent Activity</h2>
           <div className="space-y-4">
             {recentActivity.map((activity) => (
               <div key={activity.id} className="flex items-start gap-3">
