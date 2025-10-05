@@ -1,0 +1,12 @@
+[
+  { "id": "1", "name": "Acme Corporation", "tier": "A", "aum": 25000000, "status": "ACTIVE", "primaryEmail": "cfo@acme.com", "ownerId": "2", "lastTouch": "2024-01-15" },
+  { "id": "2", "name": "TechVentures LLC", "tier": "A", "aum": 18500000, "status": "ACTIVE", "primaryEmail": "contact@techventures.com", "ownerId": "2", "lastTouch": "2024-01-10" },
+  { "id": "3", "name": "Global Investments", "tier": "B", "aum": 8200000, "status": "ACTIVE", "primaryEmail": "info@globalinv.com", "ownerId": "3", "lastTouch": "2024-01-05" },
+  { "id": "4", "name": "Summit Partners", "tier": "A", "aum": 32000000, "status": "ACTIVE", "primaryEmail": "partners@summit.com", "ownerId": "2", "lastTouch": "2024-01-20" },
+  { "id": "5", "name": "Horizon Capital", "tier": "B", "aum": 12000000, "status": "ACTIVE", "primaryEmail": "admin@horizon.com", "ownerId": "3", "lastTouch": "2024-01-12" },
+  { "id": "6", "name": "Pioneer Fund", "tier": "C", "aum": 3500000, "status": "PROSPECT", "primaryEmail": "contact@pioneer.com", "ownerId": "2", "lastTouch": "2024-01-08" },
+  { "id": "7", "name": "Zenith Holdings", "tier": "B", "aum": 9800000, "status": "ACTIVE", "primaryEmail": "info@zenith.com", "ownerId": "3", "lastTouch": "2024-01-18" },
+  { "id": "8", "name": "Apex Ventures", "tier": "C", "aum": 4200000, "status": "PROSPECT", "primaryEmail": "hello@apex.com", "ownerId": "2", "lastTouch": "2024-01-03" },
+  { "id": "9", "name": "Catalyst Group", "tier": "A", "aum": 28000000, "status": "ACTIVE", "primaryEmail": "contact@catalyst.com", "ownerId": "3", "lastTouch": "2024-01-22" },
+  { "id": "10", "name": "Meridian Investments", "tier": "B", "aum": 11500000, "status": "INACTIVE", "primaryEmail": "info@meridian.com", "ownerId": "2", "lastTouch": "2023-12-20" }
+]

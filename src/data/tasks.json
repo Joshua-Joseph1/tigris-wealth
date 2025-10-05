@@ -1,0 +1,12 @@
+[
+  { "id": "1", "title": "Follow up on Q4 review", "dueAt": "2024-01-25", "priority": "HIGH", "status": "OPEN", "assigneeId": "2", "entityType": "CLIENT", "entityId": "1" },
+  { "id": "2", "title": "Prepare IC memo", "dueAt": "2024-01-28", "priority": "HIGH", "status": "IN_PROGRESS", "assigneeId": "4", "entityType": "DEAL", "entityId": "1" },
+  { "id": "3", "title": "Due diligence checklist", "dueAt": "2024-01-26", "priority": "MED", "status": "IN_PROGRESS", "assigneeId": "5", "entityType": "DEAL", "entityId": "2" },
+  { "id": "4", "title": "Schedule quarterly review", "dueAt": "2024-02-01", "priority": "MED", "status": "OPEN", "assigneeId": "2", "entityType": "CLIENT", "entityId": "4" },
+  { "id": "5", "title": "Update portfolio report", "dueAt": "2024-01-30", "priority": "LOW", "status": "OPEN", "assigneeId": "3", "entityType": "CLIENT", "entityId": "3" },
+  { "id": "6", "title": "Review compliance docs", "dueAt": "2024-01-27", "priority": "HIGH", "status": "OPEN", "assigneeId": "4", "entityType": "CLIENT", "entityId": "2" },
+  { "id": "7", "title": "Market research report", "dueAt": "2024-02-05", "priority": "LOW", "status": "OPEN", "assigneeId": "5", "entityType": "DEAL", "entityId": "5" },
+  { "id": "8", "title": "Client onboarding call", "dueAt": "2024-01-29", "priority": "MED", "status": "OPEN", "assigneeId": "3", "entityType": "CLIENT", "entityId": "6" },
+  { "id": "9", "title": "Prepare pitch deck", "dueAt": "2024-02-02", "priority": "HIGH", "status": "IN_PROGRESS", "assigneeId": "2", "entityType": "DEAL", "entityId": "9" },
+  { "id": "10", "title": "Update CRM records", "dueAt": "2024-01-26", "priority": "LOW", "status": "DONE", "assigneeId": "4", "entityType": "CLIENT", "entityId": "5" }
+]

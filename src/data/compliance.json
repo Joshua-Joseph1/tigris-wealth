@@ -1,0 +1,12 @@
+[
+  { "id": "1", "clientId": "1", "type": "KYC", "status": "PASS", "checkedAt": "2023-12-15", "fileUrl": "/docs/acme-kyc.pdf" },
+  { "id": "2", "clientId": "1", "type": "AML", "status": "PASS", "checkedAt": "2023-12-15", "fileUrl": "/docs/acme-aml.pdf" },
+  { "id": "3", "clientId": "2", "type": "KYC", "status": "PASS", "checkedAt": "2023-11-20", "fileUrl": "/docs/tech-kyc.pdf" },
+  { "id": "4", "clientId": "2", "type": "SOURCE_OF_FUNDS", "status": "PENDING", "checkedAt": null, "fileUrl": null },
+  { "id": "5", "clientId": "3", "type": "KYC", "status": "PASS", "checkedAt": "2024-01-05", "fileUrl": "/docs/global-kyc.pdf" },
+  { "id": "6", "clientId": "4", "type": "KYC", "status": "PASS", "checkedAt": "2023-10-10", "fileUrl": "/docs/summit-kyc.pdf" },
+  { "id": "7", "clientId": "4", "type": "AML", "status": "PASS", "checkedAt": "2023-10-10", "fileUrl": "/docs/summit-aml.pdf" },
+  { "id": "8", "clientId": "5", "type": "KYC", "status": "PENDING", "checkedAt": null, "fileUrl": null },
+  { "id": "9", "clientId": "6", "type": "KYC", "status": "PENDING", "checkedAt": null, "fileUrl": null },
+  { "id": "10", "clientId": "9", "type": "KYC", "status": "PASS", "checkedAt": "2023-11-01", "fileUrl": "/docs/catalyst-kyc.pdf" }
+]

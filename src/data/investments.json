@@ -1,0 +1,7 @@
+[
+  { "id": "1", "name": "Tech Growth Fund I", "strategy": "Technology Growth", "status": "OPEN", "irr": 18.5, "minTicket": 250000, "notes": "Focus on Series B-D SaaS companies" },
+  { "id": "2", "name": "Real Estate Value Fund", "strategy": "Real Estate", "status": "OPEN", "irr": 12.3, "minTicket": 500000, "notes": "Commercial and multifamily properties" },
+  { "id": "3", "name": "Emerging Markets Fund", "strategy": "Emerging Markets", "status": "OPEN", "irr": 15.7, "minTicket": 100000, "notes": "Asia-Pacific focus" },
+  { "id": "4", "name": "Healthcare Innovation", "strategy": "Healthcare", "status": "OPEN", "irr": 22.1, "minTicket": 1000000, "notes": "Biotech and medical devices" },
+  { "id": "5", "name": "Infrastructure Fund II", "strategy": "Infrastructure", "status": "CLOSED", "irr": 9.8, "minTicket": 5000000, "notes": "Successfully exited Q4 2023" }
+]

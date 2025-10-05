@@ -1,0 +1,12 @@
+[
+  { "id": "1", "actorId": "2", "action": "created deal", "entityType": "DEAL", "entityId": "6", "meta": "{\"dealName\":\"Pioneer Emerging\"}", "createdAt": "2024-01-22T10:30:00Z" },
+  { "id": "2", "actorId": "3", "action": "updated client", "entityType": "CLIENT", "entityId": "9", "meta": "{\"field\":\"lastTouch\"}", "createdAt": "2024-01-22T09:15:00Z" },
+  { "id": "3", "actorId": "4", "action": "completed task", "entityType": "TASK", "entityId": "10", "meta": "{\"taskTitle\":\"Update CRM records\"}", "createdAt": "2024-01-21T16:45:00Z" },
+  { "id": "4", "actorId": "2", "action": "moved deal to IC", "entityType": "DEAL", "entityId": "1", "meta": "{\"from\":\"DD\",\"to\":\"IC\"}", "createdAt": "2024-01-20T14:20:00Z" },
+  { "id": "5", "actorId": "5", "action": "added note", "entityType": "CLIENT", "entityId": "3", "meta": "{\"notePreview\":\"Discussed portfolio rebalancing\"}", "createdAt": "2024-01-20T11:00:00Z" },
+  { "id": "6", "actorId": "3", "action": "created task", "entityType": "TASK", "entityId": "8", "meta": "{\"taskTitle\":\"Client onboarding call\"}", "createdAt": "2024-01-19T13:30:00Z" },
+  { "id": "7", "actorId": "2", "action": "updated deal", "entityType": "DEAL", "entityId": "4", "meta": "{\"field\":\"probability\",\"value\":90}", "createdAt": "2024-01-18T15:10:00Z" },
+  { "id": "8", "actorId": "4", "action": "uploaded document", "entityType": "CLIENT", "entityId": "1", "meta": "{\"docType\":\"quarterly_report\"}", "createdAt": "2024-01-17T10:00:00Z" },
+  { "id": "9", "actorId": "3", "action": "created client", "entityType": "CLIENT", "entityId": "6", "meta": "{\"clientName\":\"Pioneer Fund\"}", "createdAt": "2024-01-16T09:45:00Z" },
+  { "id": "10", "actorId": "1", "action": "approved compliance", "entityType": "COMPLIANCE", "entityId": "5", "meta": "{\"type\":\"KYC\",\"clientId\":\"3\"}", "createdAt": "2024-01-15T14:30:00Z" }
+]
