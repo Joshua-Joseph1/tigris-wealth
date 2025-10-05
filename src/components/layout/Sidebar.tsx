@@ -2,16 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import {
-  LayoutDashboard,
-  Users,
-  TrendingUp,
-  UserCheck,
-  Briefcase,
-  CheckSquare,
-  Shield,
-  Settings,
-} from 'lucide-react'
+import { LayoutDashboard, Users, TrendingUp, UserCheck, Briefcase, SquareCheck as CheckSquare, Shield, Settings } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 const navItems = [

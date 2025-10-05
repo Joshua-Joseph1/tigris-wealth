@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { DataTable } from '@/components/ui/DataTable'
 import { Badge } from '@/components/ui/Badge'
 import { formatCurrency, formatDate } from '@/lib/utils'
-import { Search, Filter } from 'lucide-react'
+import { Search, ListFilter as Filter } from 'lucide-react'
 
 // TODO: Replace with API calls
 import clientsData from '@/data/clients.json'

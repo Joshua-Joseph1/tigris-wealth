@@ -1,4 +1,4 @@
-import { DollarSign, Users, TrendingUp, CheckSquare } from 'lucide-react'
+import { DollarSign, Users, TrendingUp, SquareCheck as CheckSquare } from 'lucide-react'
 import { KpiCard } from '@/components/ui/KpiCard'
 import { FunnelChart } from '@/components/charts/FunnelChart'
 import { formatCurrency, formatDate } from '@/lib/utils'
