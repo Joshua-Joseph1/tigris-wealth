@@ -1,3 +1,11 @@
 {
-  "/(dashboard)/page": "app/(dashboard)/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(dashboard)/page": "app/(dashboard)/page.js",
+  "/(dashboard)/investments/page": "app/(dashboard)/investments/page.js",
+  "/(dashboard)/tasks/page": "app/(dashboard)/tasks/page.js",
+  "/(dashboard)/clients/page": "app/(dashboard)/clients/page.js",
+  "/(dashboard)/pipeline/page": "app/(dashboard)/pipeline/page.js",
+  "/(dashboard)/staff/page": "app/(dashboard)/staff/page.js",
+  "/(dashboard)/compliance/page": "app/(dashboard)/compliance/page.js",
+  "/(dashboard)/settings/page": "app/(dashboard)/settings/page.js"
 }
