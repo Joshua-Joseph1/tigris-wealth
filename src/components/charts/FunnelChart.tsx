@@ -25,15 +25,15 @@ export function FunnelChart({ data }: FunnelChartProps) {
         />
         <Tooltip
           contentStyle={{
-            backgroundColor: '#111111',
-            border: '1px solid #262626',
-            borderRadius: '8px',
-            color: '#FAFAFA',
+            backgroundColor: "#111111",
+            border: "1px solid #262626",
+            borderRadius: "8px",
+            color: "#FAFAFA",
           }}
-          cursor={{ fill: 'rgba(14, 165, 233, 0.1)' }}
+          cursor={{ fill: "rgba(255, 102, 0, 0.1)" }}
         />
-        <Bar dataKey="count" fill="#0EA5E9" radius={[8, 8, 0, 0]} />
+        <Bar dataKey="count" fill="#FF6600" radius={[8, 8, 0, 0]} />
       </BarChart>
     </ResponsiveContainer>
-  )
+  );
 }

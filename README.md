@@ -93,7 +93,7 @@ Throughout the codebase, you'll find `// TODO:` comments marking where real inte
 - `background`: #000 (pure black)
 - `surface`: #111, #141414
 - `border`: #262626
-- `accent`: #0EA5E9
+- `accent`: #FF6600 (electric orange)
 - High contrast text with accessible focus rings
 
 ## Project Structure
