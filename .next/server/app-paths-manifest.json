@@ -1,3 +1,7 @@
 {
-  "/(dashboard)/page": "app/(dashboard)/page.js"
+  "/(dashboard)/page": "app/(dashboard)/page.js",
+  "/(dashboard)/settings/page": "app/(dashboard)/settings/page.js",
+  "/(dashboard)/compliance/page": "app/(dashboard)/compliance/page.js",
+  "/(dashboard)/pipeline/page": "app/(dashboard)/pipeline/page.js",
+  "/(dashboard)/clients/page": "app/(dashboard)/clients/page.js"
 }
