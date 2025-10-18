@@ -5,9 +5,12 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Investment Ops Dashboard',
-  description: 'Investment operations management platform',
-}
+  title: "Investment Ops Dashboard",
+  description: "Investment operations management platform",
+  icons: {
+    icon: "/images/favicon.png",
+  },
+};
 
 export default function RootLayout({
   children,

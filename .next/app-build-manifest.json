@@ -26,10 +26,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(dashboard)/compliance/page.js"
     ],
-    "/(dashboard)/clients/page": [
+    "/(dashboard)/tasks/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/clients/page.js"
+      "static/chunks/app/(dashboard)/tasks/page.js"
+    ],
+    "/(dashboard)/investments/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/investments/page.js"
+    ],
+    "/(dashboard)/staff/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/staff/page.js"
     ],
     "/(dashboard)/pipeline/page": [
       "static/chunks/webpack.js",
